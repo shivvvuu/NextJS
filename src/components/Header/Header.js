@@ -8,7 +8,7 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 const Header = () =>  (
  <Container>
   <Div1>
-    <Link>
+    <Link href='/'>
     
     </Link>
   </Div1>
