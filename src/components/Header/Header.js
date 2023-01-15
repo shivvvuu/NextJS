@@ -3,7 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import {Span, Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 import Projects from './../Projects/Projects';
 
 const Header = () =>  (
@@ -11,7 +11,7 @@ const Header = () =>  (
   <Div1>
     <Link href="/">
       <p style={{ display:"flex" ,alignItem:"center", color:"white" }}>
-        <DiCssdeck size="3rem"  /><span>Portfolio</span>
+        <DiCssdeck size="3rem"  /><Span>Portfolio</Span>
       </p>
     </Link>
   </Div1>
