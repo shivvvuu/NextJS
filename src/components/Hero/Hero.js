@@ -14,7 +14,7 @@ const Hero = () => (
     <SectionText>
       Indeed one of the best way to deflect attacks is to make it look like they're succeeding.It's the software equivalent of playing dead.
     </SectionText>
-    <Button onClick={() => window.location='https://google.com'} >Learn more</Button>
+    <Button onClick={() => window.location='/'} >Learn more</Button>
   </LeftSection>
  </Section>
 );
