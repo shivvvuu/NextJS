@@ -35,6 +35,23 @@ export const projects = [
     visit: '/',
     id: 3,
   },
+  {
+    title: 'Obect-Detection',
+    description: "This is a code for Object-Detection. This app is build using Tensorflow , anaconda, python, jupyter notebook for detecting environment objects.(Ongoing)",
+    image: '/images/5.png',
+    tags: ['Tensorflow',  'anaconda'],
+    source: 'https://github.com/shivvvuu/Tensorflow-Object-Detaction',
+    id: 4,
+  },
+  {
+    title: 'Signal Clone',
+    description: "This is a code for Signal Clone APK. This app is build using React-Native, AWS for smooth experience.User can chat in real time.(Ongoing)",
+    image: '/images/6.png',
+    tags: ['React-Native', 'AWS', 'Type-Script'],
+    source: 'https://github.com/shivvvuu/Signal/tree/master/signalclone',
+    id: 5,
+  },
+
 ];
 
 export const TimeLineData = [

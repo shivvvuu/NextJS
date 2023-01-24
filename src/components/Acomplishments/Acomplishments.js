@@ -7,7 +7,7 @@ const data = [
   { number: 20, text: 'Open Source Projects'},
   { number: 1, text: 'CodeForce Stare', },
   { number: 2, text: 'CodeChef Stars', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 5, text: 'Github Stars', }
 ];
 
 const Acomplishments = () => (
