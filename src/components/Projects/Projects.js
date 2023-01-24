@@ -3,6 +3,8 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import { DiChrome,DiGithu } from 'react-icons/di';
+
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -18,7 +20,7 @@ const Projects = () => (
           </TitleContent>
           <CardInfo>{description}</CardInfo>
           <div>
-            <TitleContent>Stack</TitleContent>
+            <TitleContent >Stack</TitleContent>
             <TagList>
               {tags.map((tag,i)=>(
                 <Tag key={i}>{tag}</Tag>
@@ -26,8 +28,8 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href='/'>Code</ExternalLinks>
-            <ExternalLinks href='/'>Source</ExternalLinks>
+           { visit ? <ExternalLinks href={visit} target="_blank">Visit</ExternalLinks> : null}
+            {source ? <ExternalLinks href={source} target="_blank">Source</ExternalLinks> : null}
           </UtilityList>
         </BlogCard>
       ))}
