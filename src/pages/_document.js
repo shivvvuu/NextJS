@@ -34,7 +34,7 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
           <title>Shivam jhod</title>
           <meta property="og:title" content="Shivam jhod" key="title" />
-          <meta name="description" content="Shivam jhod Portfolio.">
+          <meta name="description" content="Shivam jhod Portfolio." />
         </Head>
         <body>
           <Main />
