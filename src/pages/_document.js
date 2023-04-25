@@ -32,10 +32,9 @@ export default class MyDocument extends Document {
       <Html lang='en-GB'>
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+          <title>Shivam jhod</title>
         </Head>
-        <Title>
-        Shivam jhod
-      </Title>
+       
         <body>
           <Main />
           <NextScript />
