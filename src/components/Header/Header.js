@@ -19,17 +19,17 @@ const Header = () =>  (
   </Div1>
   <Div2>
     <li>
-      <Link href="https://www.shivamjhod.tech/#projects">
+      <Link href="https://next-b4n1yamsb-shivvvuu.vercel.app/#projects">
         <NavLink>Projects</NavLink>
       </Link>
     </li>
     <li>
-      <Link href="https://www.shivamjhod.tech/#tech">
+      <Link href="https://next-b4n1yamsb-shivvvuu.vercel.app/#tech">
         <NavLink>Technologies</NavLink>
       </Link>
     </li>
     <li>
-      <Link href="https://www.shivamjhod.tech/#about">
+      <Link href="next-b4n1yamsb-shivvvuu.vercel.app/#about">
         <NavLink>About</NavLink>
       </Link>
     </li>
