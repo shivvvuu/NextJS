@@ -15,6 +15,7 @@ const Hero = () => (
       Welcome to my portfolio! I'm Shivam, a software developer specializing in web development. Explore my projects and feel free to reach out for collaboration or questions!
     </SectionText>
     <Button onClick={() => window.location='https://shivu-blogs.vercel.app/'} >Learn more</Button>
+    <Button onClick={() => window.location='https://silver-hyacinthe-42.tiiny.site/'} >Resume</Button>
   </LeftSection>
  </Section>
 );
