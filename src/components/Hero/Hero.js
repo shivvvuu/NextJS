@@ -12,7 +12,7 @@ const Hero = () => (
       It's Shivam  Portfolio
     </SectionTitle>
     <SectionText>
-      Indeed one of the best way to deflect attacks is to make it look like they're succeeding.It's the software equivalent of playing dead.
+      Welcome to my portfolio! I'm Shivam, a software developer specializing in web development. Explore my projects and feel free to reach out for collaboration or questions!
     </SectionText>
     <Button onClick={() => window.location='https://shivu-blogs.vercel.app/'} >Learn more</Button>
   </LeftSection>
