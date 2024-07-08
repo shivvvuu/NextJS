@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: 'Flask E-commerce Website',
+    description: "This is a ecommerce website build using flask a python webfreamwork. In which user can search product get a detailed page for product and can give review on product. User can login and signup with otp authentication as well as can change password using otp which they will get on there email.",
+    image:'/images/7.png',
+    alt:'flask-ecommerce',
+    tags:['Flask','HTML', 'CSS', 'Javascript', 'Razopay'],
+    source:'https://shivvvuu.pythonanywhere.com/',
+    visit:'https://shivvvuu.pythonanywhere.com/',
+    id:0
+  },
+  {
     title: 'MERN AI-Image',
     description: "Using Vite, Node.js, Express & MongoDB full-stack website is build. The App is called DALL-E 2.0 and it helps user to get an AI- generated image and share with community.",
       image:'/images/1.png',
@@ -7,7 +17,7 @@ export const projects = [
       tags: ['MongoDB', 'Express', 'React', 'Node','OpenAI'],
     source: 'https://github.com/shivvvuu/MERN_AI_IMG',
     visit: 'https://imagebyai.netlify.app/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'YouTube Clone',
@@ -17,7 +27,7 @@ export const projects = [
     tags: ['React', 'RapidAPI'],
     source: 'https://github.com/shivvvuu/Modern_YouTube_Clone',
     visit: 'https://youtube-clone-by-shivamjhod.netlify.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'AI-ChatGPT App',
@@ -27,7 +37,7 @@ export const projects = [
       tags: ['Vite', 'NodeJS', 'OpenAI'],
     source: 'https://github.com/shivvvuu/Open_AI',
     visit: 'https://open-ai-ruby.vercel.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Portfolio',
@@ -37,7 +47,7 @@ export const projects = [
     tags: ['NextJS', 'AWS', 'Tailwind'],
     source: 'https://github.com/shivvvuu/NextJS',
     visit: '/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Obect-Detection',
@@ -46,7 +56,7 @@ export const projects = [
     alt:'object-detection',
     tags: ['Tensorflow',  'anaconda'],
     source: 'https://github.com/shivvvuu/Tensorflow-Object-Detaction',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Signal Clone',
@@ -55,7 +65,7 @@ export const projects = [
     alt:'signal-clone',
     tags: ['React-Native', 'AWS', 'Type-Script'],
     source: 'https://github.com/shivvvuu/Signal/tree/master/signalclone',
-    id: 5,
+    id: 6,
   },
 
 ];
