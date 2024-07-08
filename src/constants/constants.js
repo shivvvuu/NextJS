@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Flask E-commerce Website',
-    description: "This is a ecommerce website build using flask a python webfreamwork. In which user can search product get a detailed page for product and can give review on product. User can login and signup with otp authentication as well as can change password using otp which they will get on there email.",
+    description: "This is a ecommerce website build using flask a python webfreamwork. In which user can search product get a detailed page for product and can give review on product.",
     image:'/images/7.png',
     alt:'flask-ecommerce',
     tags:['Flask','HTML', 'CSS', 'Javascript', 'Razopay'],
